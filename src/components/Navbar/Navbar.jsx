@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <div ref={navRef} className="navbar">
       <div className="navbar-left">
-        <img src={logo} alt="" />
+        <p>JUXFLIX</p>
         <p>By CodewithJulien</p>
 
         <ul>
@@ -48,7 +48,7 @@ const Navbar = () => {
                 logout();
               }}
             >
-              Sign Out of Netflix
+              Sign Out of Juxflix
             </p>
           </div>
         </div>

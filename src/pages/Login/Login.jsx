@@ -28,7 +28,7 @@ const Login = () => {
     </div>
   ) : (
     <div className="login">
-      <img src={logo} className="login-logo" alt="" />
+      <p>JUXFLIX</p>
       <div className="login-form">
         <h1>{signState}</h1>
         <form>
@@ -75,7 +75,7 @@ const Login = () => {
         <div className="form-switch">
           {signState === "Sign In" ? (
             <p>
-              New to Netflix ?{" "}
+              New to Juxflix ?{" "}
               <span
                 onClick={() => {
                   setSignState("Sign Up");
